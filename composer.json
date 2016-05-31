@@ -1,21 +1,28 @@
 {
-        "name": "gidsoft/blog",
-        "description": "A simple blog module.",
-        "type": "magento2-module",
-        "version": "1.0.0",
-        "license": [
-            "MIT"
-        ],
-        "require": {
-            "php": "~5.5.0|~5.6.0",
-            "magento/magento-composer-installer": "*"
-        },
-        "extra": {
-            "map": [
-                [
-                    "*",
-                    "Gidsoft/Blog"
-                ]
+    "name": "gidsoft/blog",
+    "description": "A simple blog module.",
+    "authors": [
+        {
+            "name": "Gideon Overeem",
+            "email": "gideon.overeem@magentominds.com"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~5.5.0|~5.6.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Gidsoft/Blog"
             ]
-        }        
+        ]
+    }
 }
